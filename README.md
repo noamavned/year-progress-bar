@@ -2,7 +2,8 @@
 # Year progress bar
 
 Progress bar to the end of the year.  
-Works every year
+Restarts every year.  
+
 ## Authors
 
 - [@Noam Avned](https://github.com/noamavned)
