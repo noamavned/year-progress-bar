@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>time completed for year</title>
+</head>
+
+<body>
+    <div id="prog" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="--value:0"></div>
+    <py-script>
+from datetime import datetime, date
+Element('prog').element.style = '--value: '+str(int((datetime.now().timetuple().tm_yday/365)*100))
+    </py-script>
+</body>
+
+</html>
