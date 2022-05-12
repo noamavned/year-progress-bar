@@ -3,7 +3,7 @@
 
 Progress bar to the end of the year.  
 Restarts every year.  
-
+Uses python with no javascript.
 ## Authors
 
 - [@Noam Avned](https://github.com/noamavned)
